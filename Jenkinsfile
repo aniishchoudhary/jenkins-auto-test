@@ -16,7 +16,7 @@ pipeline {
         stage("Clone Code") {
             steps {
                 echo "🔁 Cloning the code from GitHub..."
-                git branch: "main", url: "https://github.com/dhawanaaaryan/task1.git"
+                git branch: "main", url: "https://github.com/aniishchoudhary/jenkins-auto-test"
             }
         }
 
